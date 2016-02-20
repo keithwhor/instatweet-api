@@ -1,0 +1,24 @@
+{
+  "name": "instatweet-api",
+  "version": "0.0.0",
+  "description": "instatweet-api",
+  "author": "mysterious author",
+  "main": "server.js",
+  "engines": {
+    "node": "4.2.4"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "nodal": "0.7.9"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~2.4.5"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha ./test/runner.js",
+    "start": "NODE_ENV=development node cluster.js",
+    "worker": "NODE_ENV=development node worker.js"
+  },
+  "private": true
+}

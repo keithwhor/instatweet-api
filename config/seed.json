@@ -1,0 +1,41 @@
+{
+
+  "development": {
+    "User": [
+      {
+        "username": "Rihanna",
+        "email": "rihanna@r.com",
+        "password": "password"
+      },
+      {
+        "username": "The Weeknd",
+        "email": "weeknd@w.com",
+        "password": "password"
+      },
+      {
+        "username": "Drake",
+        "email": "drake@d.com",
+        "password": "password"
+      }
+    ],
+    "Tweet": [
+      {
+        "user_id": 1,
+        "body": "Hello, world"
+      },
+      {
+        "user_id": 2,
+        "body": "hello, world!"
+      },
+      {
+        "user_id": 3,
+        "body": "You used to call me on my cell phone, world"
+      }
+    ]
+  },
+
+  "test": {},
+
+  "production": {}
+
+}
